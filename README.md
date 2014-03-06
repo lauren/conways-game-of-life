@@ -1,5 +1,7 @@
-Conway's Game of Life
-=====================
+[Conway's Game of Life](http://lauren.github.io/conways-game-of-life/)
+======================================================================
+
+[See it in action](http://lauren.github.io/conways-game-of-life/).
 
 [Learn about Conway's Game of Life on Wikipedia](http://en.wikipedia.org/wiki/Conway's_Game_of_Life).
 
