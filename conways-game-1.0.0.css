@@ -1,0 +1,13 @@
+*{box-sizing:border-box;padding:0px;margin:0px}
+body{font-family:"HelveticaNeue-UltraLight","Helvetica Neue UltraLight","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,sans-serif}
+h1,h2,h3{font-weight:lighter}
+h1{margin-bottom:15px}
+h2{margin-bottom:10px}
+.button{color:white;background-color:green;font-size:16px;padding:5px;text-decoration:none;border-radius:4px;border:1px solid green;vertical-align:middle;display:inline-block;margin-bottom:10px;padding:5px 10px}.button:hover{color:green;background-color:white}
+input{border-radius:4px;border:1px solid green;padding:5px;margin-bottom:5px}
+.new-game-form{display:none;margin-bottom:10px}
+.petri-dish{margin:20px}
+.container{margin:20px auto;text-align:center}
+.row{display:block;height:20px}
+.cell{border:1px solid black;width:20px;height:20px;display:inline-block}.cell.alive{background-color:green}
+.cell.neighbor{background-color:purple}
