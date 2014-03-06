@@ -9,6 +9,7 @@ module.exports = function(grunt) {
       },
       my_target: {
         files: {
+          'docs/<%= pkg.name %>-<%= pkg.version %>.min.js': ['src/<%= pkg.name %>.js'],
           'build/<%= pkg.name %>-<%= pkg.version %>.min.js': ['src/<%= pkg.name %>.js']        }
       }
     },
@@ -18,7 +19,8 @@ module.exports = function(grunt) {
           compress: true
         },
         files: {
-          "build/<%= pkg.name %>-<%= pkg.version %>.css": "src/<%= pkg.name %>.less"
+          "build/<%= pkg.name %>-<%= pkg.version %>.css": "src/<%= pkg.name %>.less",
+          "docs/<%= pkg.name %>-<%= pkg.version %>.css": "src/<%= pkg.name %>.less"
         }
       }
     },
